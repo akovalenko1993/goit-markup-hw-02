@@ -1,0 +1,242 @@
+:root {
+	--accent-bg-color: #2196f3;
+	--button-accent-color: #ffffff;
+	--main-text-content: #757575;
+	--title-text-color: #000000;
+	--hero-bcg-color: #2f303a;
+	--text-accent-color: #2196f3;
+	--footer-bcg: #2f303a;
+	--filter-item-bcg: #f5f4fa;
+	--filter-item-text-color: #212121;
+}
+
+body {
+	font-family: "Roboto", "Raleway", sans-serif;
+	color: var(--main-text-content);
+}
+.logo {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: var(--title-text-color);
+	text-decoration: none;
+}
+.logo span {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: #2196f3;
+	text-decoration: none;
+}
+.hero-section {
+	background-color: var(--hero-bcg-color);
+}
+.hero-section > h1 {
+	color: #ffffff;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.nav-links-item:hover {
+	color: var(--text-accent-color);
+}
+
+.auth-links-item:hover {
+	color: var(--text-accent-color);
+}
+
+.filter-item:hover {
+	color: #ffffff;
+	background-color: var(--accent-color);
+}
+.filter-list {
+	list-style: none;
+}
+.nav-links-item {
+	color: var(--title-text-color);
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+
+.auth-links-item {
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: #757575;
+}
+
+.nav-links {
+	list-style: none;
+}
+
+.auth-links {
+	list-style: none;
+}
+
+.hero-button {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.87;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+}
+
+.hero-button:hover {
+	color: #000000;
+	background-color: var(--accent-bg-color);
+}
+.accent {
+	color: #ffffff;
+	background-color: var(--accent-bg-color);
+}
+
+.filter-item {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+	background-color: var(--filter-item-bcg);
+}
+
+.filter-item:hover {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--button-accent-color);
+	background-color: var(--accent-bg-color);
+}
+
+.company-rules-section h3 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--title-text-color);
+}
+
+.company-rules-section p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+
+.company-rules-section ul {
+	list-style: none;
+}
+
+.how-we-do-section h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--title-text-color);
+}
+
+.how-we-do-section ul {
+	list-style: none;
+}
+
+.our-team-section ul {
+	list-style: none;
+}
+.our-team-section h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--title-text-color);
+}
+.our-team-section h3 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--title-text-color);
+}
+
+.our-team-section p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.19;
+	/* identical to box height */
+
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.header {
+	background-color: #ffffff;
+}
+
+.footer {
+	background-color: var(--footer-bcg);
+}
+
+.footer p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+}
+
+.our-products-list {
+	list-style: none;
+}
+
+.our-products-item h3 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: #212121;
+}
+
+.our-products-item p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.03em;
+}
